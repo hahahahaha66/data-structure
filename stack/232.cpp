@@ -4,9 +4,6 @@ class MYQueue {
 public:
     stack<int> stin;
     stack<int> stout;
-    MyQueue() {
-        
-    }
     
     void push(int x) {
         stin.push(x);
